@@ -1,7 +1,0 @@
-set terminal jpeg size 1600,1200
-set output "/home/user7/fig3.jpeg"
-set xlabel "gene length, bp"
-set ylabel "number of bp with non-zero coverage"
-plot "ERR655291_proteinBinData.dat" using 1:2 with linespoints linewidth 1.5 pt 7 title "" 
-set output "/home/user7/fig3.jpeg"
-replot "ERR655291_lncrnaBinData.dat" using 1:2 with linespoints linewidth 1.5 pt 7 title ""
