@@ -1,5 +1,0 @@
-set terminal jpeg size 1600,1200
-set output "/home/user7/fig2.jpeg"
-set xlabel "controlling strength"
-set ylabel "mRNA expression"
-plot "fig2.dat" using 10:6 with points pt 7 title ""
