@@ -1,0 +1,12 @@
+using namespace std;
+vector <double> vectorDiff(vector <double> input); 
+double extractMinEntries(vector <double> input);
+void coSortVectors(vector <double>* values,vector <int>* indices);
+vector <double> removeNan(vector <double> input);
+void sortVector(vector <double>* values);
+double* arrayErase(double input[],int size,int indexToErase);
+void coSortVectors2(vector <double>* values,vector <double>* indices);
+vector <string> coSortVectors3(vector <double>* values,vector <string> names);
+double findMinValue(vector <double> input); 
+double findMaxValue(vector <double> input);
+vector <vector <string> > vectorOfVectorsShuffle(vector <vector <string> > input); 
