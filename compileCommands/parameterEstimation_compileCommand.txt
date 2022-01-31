@@ -1,0 +1,1 @@
+g++ parameterEstimation.cpp libs/jacobianCompute.cpp libs/arrayProc.cpp libs/fileProc.cpp libs/extract.cpp libs/forecasting.cpp -lgsl -lgslcblas -o parameterEstimation.out
